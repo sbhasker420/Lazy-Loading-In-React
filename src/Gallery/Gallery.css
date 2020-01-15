@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("./Gallery/img.jpg"); */
+  font-family: sans-serif;
+}
+/* section {
+    display: flex;
+    justify-content: center;
+  } */
+.buttondiv {
+  text-align: center;
+}
+.load-more {
+  text-align: center;
+  padding: 8px;
+  padding-top: 2px;
+  margin: 2px;
+  font-size: 20px;
+  /* display: block; */
+  background-color: #c34d41;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 5px;
+  /* padding: 0 2px; */
+}
+.galleryImage {
+  float: left;
+  padding-left: 20px;
+  text-align: center;
+  position: relative;
+  /* display: block; */
+  /* width: 33.33%; */
+  /* flex: 20%; */
+  /* margin-left: 25px; */
+  /* padding: 0 1px; */
+}
+.galleryImage img {
+  width: 400px;
+  height: 185px;
+  margin-top: 2px;
+  margin: 2px;
+  line-height: 2px;
+  display: flex;
+  justify-content: space-around;
+}
+.displayImage img {
+  padding-left: 10px;
+  width: 1280px;
+  height: 480px;
+}
+.backButton {
+  text-align: left;
+  margin-left: 10px;
+}
+.textOnImage {
+  position: absolute;
+  text-decoration: none;
+  color: #f31e07;
+  margin-top: 90px;
+  margin-left: 185px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.displayImageDetails {
+  text-align: left;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
