@@ -2,7 +2,7 @@
   border: 1px solid darkolivegreen;
   background-color: #ffe6e6;
   width: 275px;
-  height: 132px;
+  height: 148px;
   overflow: hidden;
   float: left;
 }
@@ -16,7 +16,7 @@
   float: left;
 }
 img {
-  width: 120px;
+  width: 110px;
   float: left;
   margin-right: 2px;
 }
