@@ -1,6 +1,6 @@
 import React from "react";
 import "tachyons";
-import "../card.css";
+import "../css/card.css";
 import LazyLoad from "react-lazy-load";
 
 class Card extends React.Component {

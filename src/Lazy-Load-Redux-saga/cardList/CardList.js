@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card/Card";
-import "../card.css";
+import Card from "../card/Card";
+import "../css/card.css";
 import "tachyons";
 import InfiniteScroll from "react-infinite-scroller";
 import { connect } from "react-redux";

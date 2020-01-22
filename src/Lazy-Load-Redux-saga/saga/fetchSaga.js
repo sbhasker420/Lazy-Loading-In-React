@@ -1,5 +1,5 @@
 import { call, put, takeLatest, select } from "redux-saga/effects";
-import { fetchData$, setData$, update$ } from "../store/actions";
+import { fetchData$, setData$ } from "../store/actions";
 import { getData } from "../services/fetch";
 
 export function* fetchData() {

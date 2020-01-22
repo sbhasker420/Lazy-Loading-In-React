@@ -6,15 +6,23 @@ export const initialState = {
   limit: 30
 };
 export default function(state = initialState, action) {
-  switch (action.type) {
-    case setData$.SUCCESS:
-      return {
-        ...state,
-        list: [...state.list, ...action.payload.data],
-        counter: state.counter + state.limit,
-        limit: 10
-      };
+  if (action.type === setData$.SUCCESS) {
+    return {
+      ...state,
+      list: [...state.list, ...action.payload.data],
+      counter: state.counter + state.limit,
+      limit: 10
+    };
   }
+  // switch (action.type) {
+  //   case setData$.SUCCESS:
+  // return {
+  //   ...state,
+  //   list: [...state.list, ...action.payload.data],
+  //   counter: state.counter + state.limit,
+  //   limit: 10
+  // };
+  // }
 
   return state;
 }

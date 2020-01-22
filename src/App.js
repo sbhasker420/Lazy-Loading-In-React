@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CardList from "./Photos/CardList";
+import CardList from "./Lazy-Load-Redux-saga/cardList/CardList";
 
 class App extends Component {
   render() {

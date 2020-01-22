@@ -2,12 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { composeWithDevTools } from "redux-devtools-extension/developmentOnly";
-
-import reducer from "./store/reducer";
+import reducer from "./Lazy-Load-Redux-saga/store/reducer";
 import createSagaMiddleware from "redux-saga";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
-import rootsaga from "./saga/index";
+import rootsaga from "./Lazy-Load-Redux-saga/saga/index";
 
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = composeWithDevTools(applyMiddleware(sagaMiddleware));
